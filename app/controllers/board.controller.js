@@ -66,7 +66,7 @@ exports.findOne = (req, res) => {
   const id = req.params.id;
 
   Board.findById(id)
-    .populate("collaborators", "name")
+    .populate("collaborators", "name color")
     .populate("createdBy", "name")
     .then(data => {
       if (!data)

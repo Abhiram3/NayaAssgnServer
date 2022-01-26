@@ -1,5 +1,5 @@
 {
-  "name": "Naya Whiteboard App backend",
+  "name": "Naya_Whiteboard_App_backend",
   "version": "0.1.0",
   "description": "backend of naya Whiteboard app",
   "main": "server.js",
